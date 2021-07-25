@@ -1,10 +1,15 @@
 import Grid from '@material-ui/core/Grid'
 import Image from 'next/image'
 import styled from 'styled-components'
+import Link from 'next/Link'
+import Button from '@material-ui/core/Button'
 
 const Nav = () => {
   return (
-    <StyledGrid container alignItems='center' justifyContent='flex-end'>
+    <StyledGrid container alignItems='center' justifyContent='space-between'>
+      <Link href='/'>
+        <StyledButton>Home</StyledButton>
+      </Link>
       <StyledDiv>
         <Image src='/user.png' alt='User Icon' width={37} height={37} />
       </StyledDiv>
@@ -23,4 +28,10 @@ const StyledGrid = styled(Grid)`
 
 const StyledDiv = styled.div`
   margin-right: 30px;
+`
+
+const StyledButton = styled(Button)`
+  &&& {
+    margin-left: 20px;
+  }
 `

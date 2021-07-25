@@ -1,6 +1,6 @@
 import Grid from '@material-ui/core/Grid'
 import styled from 'styled-components'
-import Layout from '../components/Layout'
+import Layout from '../../components/Layout'
 
 const Freelance = () => {
   return (

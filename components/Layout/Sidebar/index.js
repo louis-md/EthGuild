@@ -32,10 +32,10 @@ const Sidebar = ({ isMission }) => {
 }
 
 const items = [
-  { label: 'Explore', url: 'explore' },
-  { label: 'Skills', url: 'skills' },
-  { label: 'Missions', url: 'missions' },
-  { label: 'Payments', url: 'payments' }
+  { label: 'Explore', url: 'freelance/explore' },
+  { label: 'Skills', url: 'freelance/skills' },
+  { label: 'Missions', url: 'freelance/missions' },
+  { label: 'Payments', url: 'freelance/payments' }
 ]
 
 const missionItems = [
