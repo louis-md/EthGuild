@@ -1,13 +1,13 @@
 import Grid from '@material-ui/core/Grid'
 import Image from 'next/image'
 import styled from 'styled-components'
-import Link from 'next/Link'
+import Link from 'next/link'
 import Button from '@material-ui/core/Button'
 
 const Nav = () => {
   return (
     <StyledGrid container alignItems='center' justifyContent='space-between'>
-      <Link href='/'>
+      <Link passHref href='/'>
         <StyledButton>Home</StyledButton>
       </Link>
       <StyledDiv>
